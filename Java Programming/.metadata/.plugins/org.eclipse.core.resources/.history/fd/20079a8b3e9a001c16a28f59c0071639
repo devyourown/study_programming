@@ -1,0 +1,24 @@
+package treeandgraph;
+
+import java.util.LinkedList;
+
+public class Node {
+	public LinkedList<Integer> adjcent;
+	public String name;
+	public int index;
+	public boolean isVisited;
+	
+	public Node(int index) {
+		this.index = index;
+		adjcent = new LinkedList<>();
+		isVisited = false;
+	}
+	
+	public void addNeighbor(int otherIndex) {
+		adjcent.add(otherIndex);
+	}
+	
+	public void visit() {
+		this.isVisited = true;
+	}
+}

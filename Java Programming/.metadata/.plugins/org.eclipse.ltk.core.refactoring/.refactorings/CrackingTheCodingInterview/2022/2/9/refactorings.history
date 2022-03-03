@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;arrayandstring&apos; to &apos;CrackingTheInterview/src&apos;&#x0D;&#x0A;- Original project: &apos;CrackingTheCodingInterview&apos;&#x0D;&#x0A;- Destination element: &apos;CrackingTheInterview/src&apos;&#x0D;&#x0A;- Original element: &apos;CrackingTheCodingInterview/src/arrayandstring&apos;" description="Copy package" destination="=CrackingTheInterview/src" element1="/src&lt;arrayandstring" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1645896301482" version="1.0"/>
+</session>

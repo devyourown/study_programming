@@ -1,0 +1,9 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <short-name>time</short-name>
+    <function>
+        <name>printnow</name>
+        <function-class>util.MakeEL</function-class>
+        <function-signature>java.lang.String now()</function-signature>
+    </function>
+</taglib>

@@ -1,0 +1,6 @@
+package treeandgraph;
+
+public class Node {
+	public Node adjcent[];
+	public String name;
+}

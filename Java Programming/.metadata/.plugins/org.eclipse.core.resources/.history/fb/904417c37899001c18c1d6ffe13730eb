@@ -1,0 +1,10 @@
+package stackandqueue;
+
+public class StackMin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

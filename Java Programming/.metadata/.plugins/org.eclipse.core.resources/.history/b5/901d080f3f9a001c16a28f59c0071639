@@ -1,0 +1,15 @@
+package treeandgraph;
+
+public class Graph {
+	public Node graphs[];
+	public int size;
+	
+	public Graph(int size) {
+		this.size = size;
+		graphs = new Node[size];
+	}
+	
+	public void BFS() {
+		
+	}
+}

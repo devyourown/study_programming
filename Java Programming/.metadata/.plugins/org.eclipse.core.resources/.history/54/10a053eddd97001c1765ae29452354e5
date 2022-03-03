@@ -1,0 +1,26 @@
+package linkedlist;
+
+import java.util.List;
+
+public class LinkedList {
+	
+	Node head;
+	int size = 0;
+	
+	public void putFront(int data) {
+		Node newNode = new Node(data);
+		if(head == null) {
+			head = newNode;
+		} else {
+			newNode.next = 
+		}
+	}
+	
+	class Node {
+		int data;
+		Node next = null;
+		Node(int data) {
+			this.data = data;
+		}
+	}
+}

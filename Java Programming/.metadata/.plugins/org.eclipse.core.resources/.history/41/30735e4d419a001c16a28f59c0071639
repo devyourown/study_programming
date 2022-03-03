@@ -1,0 +1,10 @@
+package treeandgraph;
+
+public class PathBetweenNodes {
+
+	public static void main(String[] args) {
+		Graph graph = new Graph(7);
+		graph.addNode(new Node(0));
+	}
+
+}

@@ -1,0 +1,27 @@
+package treeandgraph;
+
+public class TreeNode {
+	TreeNode left;
+	TreeNode right;
+	int data;
+	
+	TreeNode(int data) {
+		this.data = data;
+	}
+	
+	public TreeNode createMinBST(int arr[]) {
+		return createMinBST(arr, 0, arr.length-1);
+	}
+	
+	public TreeNode createMinBST(int arr[], int start, int end) {
+		if(start > end) {
+			return null;
+		}
+		
+		int mid = (start+end) / 2;
+		TreeNode node = new TreeNode(arr[mid]);
+		node.left = createMinBST(arr, start, mid-1);
+		node.right = createMinBST(arr, mid+1, end);
+		return node;
+	}
+}

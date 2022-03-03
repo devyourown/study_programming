@@ -1,0 +1,11 @@
+package stackandqueue;
+
+public class Cat extends Animal{
+	public Cat(String name) {
+		super.name = name;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+}

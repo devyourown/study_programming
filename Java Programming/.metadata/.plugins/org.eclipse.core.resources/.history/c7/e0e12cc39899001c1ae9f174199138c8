@@ -1,0 +1,23 @@
+package recurse;
+
+import java.util.Scanner;
+
+public class Hanoi {
+	public static void move(int start, int mid, int end, int num) {
+		if(num == 1) {
+			System.out.println(start + " " + end);
+			return;
+		}
+		
+		move(start, end ,mid, num-1);
+		System.out.println(start + " " + end);
+		move(mid, start, end, num-1);
+	}
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int N = scan.nextInt();
+		move(1, 2, 3, N);
+	}
+
+}
